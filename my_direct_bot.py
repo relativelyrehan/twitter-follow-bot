@@ -37,9 +37,6 @@ try:
         store_user_id(follow_track, file_name)
         api.create_friendship(followers[element].id)
         
-    while True:
-        followback()
-        time.sleep(10)
 except:
     print('no more followers')
     
